@@ -46,12 +46,12 @@ st.markdown("""
         .stTextArea textarea {
             font-size: 16px;
             font-family: 'Courier New', monospace;
-            background-color: #303030 !important; /* Dark Gray Background */
-            color: white !important; /* White Text */
+            background-color: #303030 !important;
+            color: white !important; 
         }
         .review-box {
-            background-color: #303030 !important; /* Dark Gray Background */
-            color: white !important; /* White Text */
+            background-color: #303030 !important; 
+            color: white !important; 
             padding: 15px;
             border-radius: 10px;
         }
