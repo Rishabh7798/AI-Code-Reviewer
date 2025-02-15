@@ -10,8 +10,13 @@ def review_code(user_code):
     try:
         model = genai.GenerativeModel("gemini-pro")  
         prompt = f"""
-        Review the following Python code and provide Bug Report, Improvements, and Best Practices.
-        Also, provide Fixed Code.
+        Review the given Python code
+        
+        then provide what are Errors in the give code 
+
+        Then provide Bug Report
+        
+        Also, provide Fixed Code
         
         Code:
         ```python
