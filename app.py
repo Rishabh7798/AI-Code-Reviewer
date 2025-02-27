@@ -3,7 +3,7 @@ import google.generativeai as genai
 from streamlit_extras.add_vertical_space import add_vertical_space
 from streamlit_extras.let_it_rain import rain
 
-API_KEY = "AIzaSyDuLiCCvqZeHk9r0uxp-9ESdlwICyyR90U"
+API_KEY = "AIzaSyAGDPZ69eIk2UDUFgF55-yNVcOPmBqizSk"
 genai.configure(api_key=API_KEY)
 
 def review_code(user_code):
